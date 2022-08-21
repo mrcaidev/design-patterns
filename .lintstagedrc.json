@@ -1,0 +1,7 @@
+{
+  "*.ts": [
+    "eslint --fix --cache --cache-location ./node_modules/.cache/eslint/.eslintcache",
+    "prettier --write --cache"
+  ],
+  "*.{json,md,yaml}": "prettier --write --cache"
+}
